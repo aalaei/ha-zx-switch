@@ -1,0 +1,120 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to the switch",
+        "description": "Enter the address and web login of your ZX510S-4T2XS switch.",
+        "data": {
+          "host": "Host",
+          "username": "Username",
+          "password": "Password"
+        },
+        "data_description": {
+          "host": "IP address or hostname of the switch, for example 192.168.3.23.",
+          "username": "Web UI user. Read-only users can't toggle ports, save or reboot."
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-authenticate",
+        "description": "The switch at {host} rejected the stored login. Enter the current credentials.",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure the switch",
+        "data": {
+          "host": "Host",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Couldn't connect to the switch. Check the address, and that no other session limit has been reached.",
+      "invalid_auth": "Invalid username or password.",
+      "unknown": "Unexpected error. See the logs for details."
+    },
+    "abort": {
+      "already_configured": "This switch is already configured.",
+      "reauth_successful": "Re-authentication was successful.",
+      "reconfigure_successful": "The switch was reconfigured.",
+      "wrong_device": "That address belongs to a different switch."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Options",
+        "data": {
+          "scan_interval": "Polling interval"
+        },
+        "data_description": {
+          "scan_interval": "How often to read the switch. Each poll makes about 13 requests to its web server."
+        }
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "link": { "name": "{port} link" },
+      "sfp_present": { "name": "{port} SFP inserted" },
+      "sfp_los": { "name": "{port} SFP loss of signal" }
+    },
+    "button": {
+      "save_config": { "name": "Save configuration" }
+    },
+    "sensor": {
+      "cpu_usage": { "name": "CPU usage" },
+      "memory_usage": { "name": "Memory usage" },
+      "boot_time": { "name": "Last boot" },
+      "ports_up": { "name": "Ports up" },
+      "temperature": { "name": "{probe} temperature" },
+      "fan_speed": { "name": "{fan} speed" },
+      "link_speed": { "name": "{port} link speed" },
+      "rx_rate": { "name": "{port} download rate" },
+      "tx_rate": { "name": "{port} upload rate" },
+      "rx_bytes": { "name": "{port} received" },
+      "tx_bytes": { "name": "{port} sent" },
+      "rx_packets": { "name": "{port} packets received" },
+      "tx_packets": { "name": "{port} packets sent" },
+      "rx_errors": { "name": "{port} receive errors" },
+      "rx_discards": { "name": "{port} receive discards" },
+      "tx_discards": { "name": "{port} transmit discards" },
+      "sfp_module": {
+        "name": "{port} SFP module",
+        "state_attributes": {
+          "type": { "name": "Type" },
+          "connector": { "name": "Connector" },
+          "compliance": { "name": "Compliance" },
+          "media": { "name": "Media" },
+          "wavelength": { "name": "Wavelength" },
+          "bitrate": { "name": "Bit rate" },
+          "vendor": { "name": "Vendor" },
+          "vendor_oui": { "name": "Vendor OUI" },
+          "part_number": { "name": "Part number" },
+          "revision": { "name": "Revision" },
+          "serial": { "name": "Serial number" },
+          "date_code": { "name": "Date code" }
+        }
+      },
+      "sfp_temperature": { "name": "{port} SFP temperature" },
+      "sfp_voltage": { "name": "{port} SFP voltage" },
+      "sfp_bias_current": { "name": "{port} SFP bias current" },
+      "sfp_tx_power": { "name": "{port} SFP TX power" },
+      "sfp_rx_power": { "name": "{port} SFP RX power" }
+    },
+    "switch": {
+      "port_enabled": { "name": "{port} enabled" }
+    }
+  },
+  "exceptions": {
+    "port_update_failed": {
+      "message": "Couldn't change port {port}: {error}"
+    },
+    "action_failed": {
+      "message": "The switch rejected the request: {error}"
+    }
+  }
+}

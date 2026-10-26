@@ -1,0 +1,23 @@
+{
+ "data": {
+  "los": "lang('diag','lblNormal')",
+  "oe": "lang('diag','lblInsert')",
+  "trxType": "SFP/SFP+",
+  "connectorType": "Copper pigtail",
+  "ethComplianceCode": "Unknown",
+  "transMedia": "Unknown",
+  "wavelength": "lang('diag','lblNS')",
+  "bitrate": "10300 Mbps",
+  "vendor_oui": "40-20-53",
+  "vendor_name": "OEM             ",
+  "vendor_pn": "SFP-H10G-CU0.5M",
+  "vendor_rev": "03  ",
+  "vendor_sn": "SN0000000000002 ",
+  "datecode": "12854-12337-123",
+  "temp": "lang('diag','lblNS')",
+  "volt": "lang('diag','lblNS')",
+  "bias": "lang('diag','lblNS')",
+  "txPwr": "lang('diag','lblNS')",
+  "rxPwr": "lang('diag','lblNS')"
+ }
+}

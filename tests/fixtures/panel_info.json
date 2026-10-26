@@ -1,0 +1,38 @@
+{
+ "data": {
+  "ports": [
+   {
+    "autoNego": true,
+    "linkup": false
+   },
+   {
+    "autoNego": true,
+    "linkup": false
+   },
+   {
+    "autoNego": true,
+    "linkup": false
+   },
+   {
+    "autoNego": true,
+    "linkup": true,
+    "speed": "10000",
+    "dupFull": true
+   },
+   {
+    "autoNego": true,
+    "linkup": true,
+    "speed": "10000",
+    "dupFull": true,
+    "media": "fiber"
+   },
+   {
+    "autoNego": true,
+    "linkup": true,
+    "speed": "10000",
+    "dupFull": true,
+    "media": "fiber"
+   }
+  ]
+ }
+}

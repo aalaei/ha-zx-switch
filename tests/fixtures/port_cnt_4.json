@@ -1,0 +1,185 @@
+{
+ "data": {
+  "cnts": [
+   {
+    "type": "lang('port','lblIntf')",
+    "cnts": [
+     {
+      "name": "ifInOctets",
+      "val": 71506874540
+     },
+     {
+      "name": "ifInUcastPkts",
+      "val": 94298984
+     },
+     {
+      "name": "ifInNUcastPkts",
+      "val": 1004562
+     },
+     {
+      "name": "ifInDiscards",
+      "val": 0
+     },
+     {
+      "name": "ifOutOctets",
+      "val": 21052519283
+     },
+     {
+      "name": "ifOutUcastPkts",
+      "val": 73443823
+     },
+     {
+      "name": "ifOutNUcastPkts",
+      "val": 1134971
+     },
+     {
+      "name": "ifOutDiscards",
+      "val": 0
+     },
+     {
+      "name": "ifInMulticastPkts",
+      "val": 497998
+     },
+     {
+      "name": "ifInBroadcastPkts",
+      "val": 506564
+     },
+     {
+      "name": "ifOutMulticastPkts",
+      "val": 947186
+     },
+     {
+      "name": "ifOutBroadcastPkts",
+      "val": 187785
+     }
+    ]
+   },
+   {
+    "type": "lang('port','lblEther')",
+    "cnts": [
+     {
+      "name": "dot3StatsAlignmentErrors",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsFCSErrors",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsSingleCollisionFrames",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsMultipleCollisionFrames",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsDeferredTransmissions",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsLateCollisions",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsExcessiveCollisions",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsFrameTooLongs",
+      "val": 0
+     },
+     {
+      "name": "dot3StatsSymbolErrors",
+      "val": 0
+     },
+     {
+      "name": "dot3ControlInUnknownOpcodes",
+      "val": 0
+     },
+     {
+      "name": "dot3InPauseFrames ",
+      "val": 18
+     },
+     {
+      "name": "dot3OutPauseFrames ",
+      "val": 0
+     }
+    ]
+   },
+   {
+    "type": "lang('port','lblRmon')",
+    "cnts": [
+     {
+      "name": "etherStatsDropEvents",
+      "val": 0
+     },
+     {
+      "name": "etherStatsOctets",
+      "val": 71506874895
+     },
+     {
+      "name": "etherStatsPkts",
+      "val": 95303547
+     },
+     {
+      "name": "etherStatsBroadcastPkts",
+      "val": 506564
+     },
+     {
+      "name": "etherStatsMulticastPkts",
+      "val": 497998
+     },
+     {
+      "name": "etherStatsCRCAlignErrors",
+      "val": 0
+     },
+     {
+      "name": "etherStatsUnderSizePkts",
+      "val": 0
+     },
+     {
+      "name": "etherStatsOverSizePkts",
+      "val": 4165773
+     },
+     {
+      "name": "etherStatsFragments",
+      "val": 0
+     },
+     {
+      "name": "etherStatsJabbers",
+      "val": 0
+     },
+     {
+      "name": "etherStatsCollisions",
+      "val": 0
+     },
+     {
+      "name": "etherStatsPkts64Octets",
+      "val": 5328579
+     },
+     {
+      "name": "etherStatsPkts65to127Octets",
+      "val": 19038716
+     },
+     {
+      "name": "etherStatsPkts128to255Octets",
+      "val": 5792407
+     },
+     {
+      "name": "etherStatsPkts256to511Octets",
+      "val": 14762647
+     },
+     {
+      "name": "etherStatsPkts512to1023Octets",
+      "val": 7574204
+     },
+     {
+      "name": "etherStatsPkts1024to1518Octets",
+      "val": 38650066
+     }
+    ]
+   }
+  ]
+ }
+}

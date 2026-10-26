@@ -1,0 +1,16 @@
+{
+ "data": {
+  "descp": "",
+  "maxlen_descp": 32,
+  "adminStatus": true,
+  "adminSpeed": "auto",
+  "adminDuplex": "auto",
+  "adminFlowCtrl": "disable",
+  "FPort": false,
+  "TenGi": true,
+  "TenGiCopper": false,
+  "TenGiMode2500": true,
+  "TenGiModeSet": false,
+  "MultiGi": false
+ }
+}

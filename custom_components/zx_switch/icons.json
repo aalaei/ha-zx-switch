@@ -1,0 +1,37 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "link": {
+        "default": "mdi:ethernet",
+        "state": { "off": "mdi:ethernet-off" }
+      },
+      "sfp_present": { "default": "mdi:expansion-card" }
+    },
+    "button": {
+      "save_config": { "default": "mdi:content-save" }
+    },
+    "sensor": {
+      "cpu_usage": { "default": "mdi:cpu-64-bit" },
+      "memory_usage": { "default": "mdi:memory" },
+      "ports_up": { "default": "mdi:lan-connect" },
+      "fan_speed": { "default": "mdi:fan" },
+      "link_speed": { "default": "mdi:speedometer" },
+      "rx_rate": { "default": "mdi:download-network" },
+      "tx_rate": { "default": "mdi:upload-network" },
+      "rx_bytes": { "default": "mdi:download" },
+      "tx_bytes": { "default": "mdi:upload" },
+      "rx_packets": { "default": "mdi:package-down" },
+      "tx_packets": { "default": "mdi:package-up" },
+      "rx_errors": { "default": "mdi:alert-circle-outline" },
+      "rx_discards": { "default": "mdi:delete-outline" },
+      "tx_discards": { "default": "mdi:delete-outline" },
+      "sfp_module": { "default": "mdi:expansion-card-variant" }
+    },
+    "switch": {
+      "port_enabled": {
+        "default": "mdi:ethernet",
+        "state": { "off": "mdi:ethernet-off" }
+      }
+    }
+  }
+}

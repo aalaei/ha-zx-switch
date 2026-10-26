@@ -1,0 +1,31 @@
+{
+ "data": {
+  "location": "default",
+  "contact": "default",
+  "hostname": "Switch",
+  "syssn": "000000000000001",
+  "sysObjID": "1.3.6.1.4.1.27282.1.3",
+  "sysUpTime": "lang('sys','txtSysUptimeArg',[2,21,12,40])",
+  "sysCurrTime": "2025-01-03 22:12:30 UTC+1 ",
+  "sec": 1735942350,
+  "sysMac": "02:00:00:00:00:01",
+  "currIpv4": "192.168.3.23",
+  "loaderVer": "1.0.0.2",
+  "loaderDate": "Mar 29 2025 - 06:33:50",
+  "fwVer": "1.1.1.34",
+  "fwDate": "Mar 29 2025 - 06:49:25",
+  "sysCurrTemp": "CPU 51.25C, Chassis 36.75C, PHY 36.75C ",
+  "sysCurrFAN": "FAN1 2385RPM",
+  "currIpv6": [],
+  "methods": [
+   {
+    "txt": "lang('line','lblHttp')",
+    "state": true
+   },
+   {
+    "txt": "lang('line','lblSnmp')",
+    "state": false
+   }
+  ]
+ }
+}

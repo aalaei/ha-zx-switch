@@ -1,0 +1,26 @@
+{
+ "data": {
+  "ports": [
+   {
+    "port": 4,
+    "temp": "lang('diag','lblNS')",
+    "volt": "lang('diag','lblNS')",
+    "bias": "lang('diag','lblNS')",
+    "txPwr": "lang('diag','lblNS')",
+    "rxPwr": "lang('diag','lblNS')",
+    "oe": "lang('diag','lblInsert')",
+    "los": "lang('diag','lblNormal')"
+   },
+   {
+    "port": 5,
+    "temp": "lang('diag','lblNS')",
+    "volt": "lang('diag','lblNS')",
+    "bias": "lang('diag','lblNS')",
+    "txPwr": "lang('diag','lblNS')",
+    "rxPwr": "lang('diag','lblNS')",
+    "oe": "lang('diag','lblInsert')",
+    "los": "lang('diag','lblNormal')"
+   }
+  ]
+ }
+}

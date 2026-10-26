@@ -1,0 +1,13 @@
+{
+  "domain": "zx_switch",
+  "name": "ZX510S 10G Managed Switch",
+  "codeowners": ["@aalaei"],
+  "config_flow": true,
+  "documentation": "https://github.com/aalaei/ZX510S-4T2XS-ha",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/aalaei/ZX510S-4T2XS-ha/issues",
+  "loggers": ["custom_components.zx_switch"],
+  "requirements": [],
+  "version": "1.0.0"
+}

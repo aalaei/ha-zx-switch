@@ -1,0 +1,69 @@
+{
+ "data": {
+  "ports": [
+   {
+    "descp": "",
+    "type": "lang('port','txtMediaGCopper',[10])",
+    "adminStatus": true,
+    "adminSpeed": "lang('port','lblAuto')",
+    "adminDuplex": "lang('port','lblAuto')",
+    "adminFlowCtrl": "lang('common','txtDisabled')",
+    "operStatus": false
+   },
+   {
+    "descp": "",
+    "type": "lang('port','txtMediaGCopper',[10])",
+    "adminStatus": true,
+    "adminSpeed": "lang('port','lblAuto')",
+    "adminDuplex": "lang('port','lblAuto')",
+    "adminFlowCtrl": "lang('common','txtDisabled')",
+    "operStatus": false
+   },
+   {
+    "descp": "",
+    "type": "lang('port','txtMediaGCopper',[10])",
+    "adminStatus": true,
+    "adminSpeed": "lang('port','lblAuto')",
+    "adminDuplex": "lang('port','lblAuto')",
+    "adminFlowCtrl": "lang('common','txtDisabled')",
+    "operStatus": false
+   },
+   {
+    "descp": "",
+    "type": "lang('port','txtMediaGCopper',[10])",
+    "adminStatus": true,
+    "adminSpeed": "lang('port','lblAuto')",
+    "adminDuplex": "lang('port','lblAuto')",
+    "adminFlowCtrl": "lang('common','txtDisabled')",
+    "operStatus": true,
+    "operFlowCtrl": false,
+    "operSpeed": "10G",
+    "operDuplex": "lang('port','txtDuplexFull')"
+   },
+   {
+    "descp": "",
+    "type": "lang('port','txtMediaGFiber',[10])",
+    "adminStatus": true,
+    "adminSpeed": "lang('port','lblAuto')",
+    "adminDuplex": "lang('port','lblAuto')",
+    "adminFlowCtrl": "lang('common','txtDisabled')",
+    "operStatus": true,
+    "operFlowCtrl": false,
+    "operSpeed": "10G",
+    "operDuplex": "lang('port','txtDuplexFull')"
+   },
+   {
+    "descp": "",
+    "type": "lang('port','txtMediaGFiber',[10])",
+    "adminStatus": true,
+    "adminSpeed": "lang('port','lblAuto')",
+    "adminDuplex": "lang('port','lblAuto')",
+    "adminFlowCtrl": "lang('common','txtDisabled')",
+    "operStatus": true,
+    "operFlowCtrl": false,
+    "operSpeed": "10G",
+    "operDuplex": "lang('port','txtDuplexFull')"
+   }
+  ]
+ }
+}

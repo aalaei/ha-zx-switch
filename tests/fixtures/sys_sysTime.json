@@ -1,0 +1,8 @@
+{
+ "data": {
+  "sysUpTime": "lang('sys','txtSysUptimeArg',[2,21,12,40])",
+  "sysCurrTime": "2025-01-03 22:12:30 UTC+1 ",
+  "sysCurrTemp": "CPU 51.25C, Chassis 36.75C, PHY 36.75C ",
+  "sysCurrFAN": "FAN1 2385RPM"
+ }
+}
