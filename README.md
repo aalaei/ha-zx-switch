@@ -35,13 +35,13 @@ Tested on firmware **1.1.1.34** (Mar 29 2025). Other switches running the same "
 
 ### HACS (one click)
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aalaei&repository=ZX510S-4T2XS-ha&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=aalaei&repository=ha-zx-switch&category=integration)
 
 Click the button, then **Download**, and restart Home Assistant.
 
 ### HACS (by hand)
 1. In HACS, open the ⋮ menu → **Custom repositories**.
-2. Add `https://github.com/aalaei/ZX510S-4T2XS-ha` with category **Integration**.
+2. Add `https://github.com/aalaei/ha-zx-switch` with category **Integration**.
 3. Install **ZX510S 10G Managed Switch** and restart Home Assistant.
 
 ### Manual
